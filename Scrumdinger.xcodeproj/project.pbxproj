@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0530BDF72B715D3B008D4E39 /* ScrumsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0530BDF62B715D3B008D4E39 /* ScrumsView.swift */; };
 		05A9CF7A2B6D8689007161AB /* ScrumdingerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05A9CF792B6D8689007161AB /* ScrumdingerApp.swift */; };
 		05A9CF7C2B6D8689007161AB /* MeetingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05A9CF7B2B6D8689007161AB /* MeetingView.swift */; };
 		05A9CF7E2B6D868B007161AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05A9CF7D2B6D868B007161AB /* Assets.xcassets */; };
@@ -38,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0530BDF62B715D3B008D4E39 /* ScrumsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumsView.swift; sourceTree = "<group>"; };
 		05A9CF762B6D8689007161AB /* Scrumdinger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Scrumdinger.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		05A9CF792B6D8689007161AB /* ScrumdingerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumdingerApp.swift; sourceTree = "<group>"; };
 		05A9CF7B2B6D8689007161AB /* MeetingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingView.swift; sourceTree = "<group>"; };
@@ -109,6 +111,7 @@
 				05A9CF7F2B6D868B007161AB /* Preview Content */,
 				05A9CFA82B6E9AAC007161AB /* CardView.swift */,
 				05A9CFAA2B6EBADC007161AB /* TrailingIcon.swift */,
+				0530BDF62B715D3B008D4E39 /* ScrumsView.swift */,
 			);
 			path = Scrumdinger;
 			sourceTree = "<group>";
@@ -280,6 +283,7 @@
 				05A9CFA72B6DDB42007161AB /* DailyScrum.swift in Sources */,
 				05A9CF7C2B6D8689007161AB /* MeetingView.swift in Sources */,
 				05A9CFA52B6DD980007161AB /* Themes.swift in Sources */,
+				0530BDF72B715D3B008D4E39 /* ScrumsView.swift in Sources */,
 				05A9CF7A2B6D8689007161AB /* ScrumdingerApp.swift in Sources */,
 				05A9CFAB2B6EBADC007161AB /* TrailingIcon.swift in Sources */,
 				05A9CFA92B6E9AAC007161AB /* CardView.swift in Sources */,
