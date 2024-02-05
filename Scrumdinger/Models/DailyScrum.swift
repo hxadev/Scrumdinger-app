@@ -7,11 +7,21 @@
 
 import Foundation
 
-struct DailyScrum{
+struct DailyScrum: Identifiable{
+    let id:UUID
     var title: String
     var attendes: [String]
     var lengthInMinutes: Int
     var theme: Theme
+    
+    init(id: UUID=UUID(), title: String, attendes: [String], lengthInMinutes: Int, theme: Theme) {
+        self.id = id
+        self.title = title
+        self.attendes = attendes
+        self.lengthInMinutes = lengthInMinutes
+        self.theme = theme
+    }
+    
     
 }
 
@@ -28,7 +38,7 @@ extension DailyScrum{
             title: "App Dev",
             attendes: ["Krathy","Anuar","Ron"],
             lengthInMinutes: 15,
-            theme: .purple
+            theme: .poppy
         ),
         DailyScrum(
             title: "Web Dev",
